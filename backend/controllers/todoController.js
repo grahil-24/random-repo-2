@@ -50,6 +50,4 @@ const getTodoById = async(req, res) => {
     }
 }
 
-
-
 module.exports = {createTodo, getTodoById, deleteTodoById, getAllTodos};
