@@ -1,0 +1,55 @@
+#todo-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#todo-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#todo-form div {
+    margin-bottom: 15px;
+}
+
+#todo-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#todo-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#todo-form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#todo-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+}
+
+#success-message {
+    color: green;
+    text-align: center;
+}

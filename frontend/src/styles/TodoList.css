@@ -1,0 +1,58 @@
+/* TodoList.css */
+
+#todo-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#todo-list h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#todo-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-list li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    word-wrap: break-word; /* Prevent overflow */
+    max-width: 100%; /* Ensure it stays within bounds */
+}
+
+#todo-list li h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#todo-list li p {
+    font-size: 1rem;
+    color: #555;
+    word-wrap: break-word; /* Enable wrapping for long descriptions */
+    overflow-wrap: break-word; /* Ensure long text breaks into multiple lines */
+    hyphens: auto; /* Adds automatic hyphenation when necessary */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
