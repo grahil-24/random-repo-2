@@ -98,7 +98,7 @@ Base URL: http://localhost:3000
 
 4. Get All To-Dos
 
-   - Endpoint: DELETE /api/todos/:id
+   - Endpoint: GET /api/todos/:id
    -  Response:
       ```bash
       [
